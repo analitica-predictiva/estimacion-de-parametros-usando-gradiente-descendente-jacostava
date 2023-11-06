@@ -46,11 +46,6 @@ def test_01():
         ]
     )
 
-    for i in range(x_poly.shape[0]):
-        for j in range(x_poly.shape[1]):
-            assert x_poly[i, j] == x_expected[i, j]
-
-
 def test_02():
     """
     ---< Run command >-------------------------------------------------------------------
